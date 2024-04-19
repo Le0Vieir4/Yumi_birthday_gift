@@ -26,21 +26,18 @@ export function Chat() {
            quality={95}
            priority={true}
            sizes="100vw"
-           className="w-full lg:h-auto sm:h-[920px] object-cover"
+           className="w-full xl:h-[1200px] md:h-[1000px] xl: sm:h-[920px] object-cover"
            /> 
         </div>
       </div>
-      <Card className=" w-[540px] lg:w-[920px] lg:mt-20 md:mt-12 sm:mt-10 shadow-md bg-transparent shadow-red-400 border-2 border-blue-400">
+      <Card className=" w-[540px] lg:w-[920px] lg:mt-20 md:mt-12 sm:mt-20 shadow-md bg-transparent shadow-red-400 border-2 border-blue-400">
     
         <CardHeader className="flex flex-1 justify-center items-center">
-          <CardTitle className=" text-5xl font-extrabold bg-gradient-to-tr from-yellow-400 to-yellow-800 text-transparent bg-clip-text"> League of Aphelios</CardTitle>
+          <CardTitle className=" pb-2 text-5xl font-extrabold bg-gradient-to-tr from-yellow-400 to-yellow-800 text-transparent bg-clip-text"> League of Aphelios</CardTitle>
           <CardDescription className="text-2xl bg-gradient-to-l from-[#912012] font-extrabold to-white text-transparent bg-clip-text"> Parabéns Yumi, bata um papinho com o  aphelios como presente!!</CardDescription>
         </CardHeader>
-          <CardContent className="overflow-y-auto"> 
-            <div className="w-full flex flex-col ">
-              
-            </div>
-            <ScrollArea className=" w-full overflow-y-auto lg:h-[400px] pr-4">
+          <CardContent> 
+            <ScrollArea className=" w-full overflow-y-auto sm:h-[450px] md:h-[500px] lg:h-[500px] xl:h-[650px]pr-4">
             
             <div className=" gap-2 flex flex-row mb-4" >
               <div className="sm:w-[80px] lg:w-[80px]">
