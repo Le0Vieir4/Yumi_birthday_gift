@@ -51,7 +51,7 @@ export function Chat() {
 
             <div className="w-full gap-2 flex flex-row mb-4">
               <div className="sm:w-[80px]">
-                <Image src={yumiIcon} alt="avatar" className="rounded-full drop-shadow-xl border-2 border-violet-500"/>
+                <Image src={apheliosAvatar} alt="avatar" className="rounded-full drop-shadow-xl border-2 border-violet-500"/>
               </div>
               <div className="bg-slate-200 border text-justify lg:max-w-[650px] sm:max-w-[350px] lg:text-[17px] lg:px-6 sm:px-2 sm:py-1 shadow-md rounded-md">
                 <p className="leading-relaxed"><Image unoptimized src={mygif} alt='gif' width={150} height={150}/></p>  
